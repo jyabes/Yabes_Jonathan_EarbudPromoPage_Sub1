@@ -1,0 +1,22 @@
+<model-viewer src="Yabes_Jonathan_Earbud.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="4.509541602217702m 188.15995105251227m 9.50815713204895m" data-normal="0.07165658391326078m 0.2895796961481602m 0.9544678797951354m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Microphone</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.2726839123058369m 140.30711623232733m 21.0312925062301m" data-normal="-0.09801735813265836m 0.06891482258166999m 0.9927957215526422m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Touch Control</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="23.843773240794235m 171.08132535583204m -66.30477162260917m" data-normal="0.31295083699913184m -0.014044475301806896m -0.9496654812801401m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Noise Canceling</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="1.360106536965026m 43.83192571313832m 13.663794805665134m" data-normal="0.09273207823037619m -0.3861764796999074m 0.9177518663525901m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Charging Contact</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-56.49949397312602m 174.80621480985337m -104.70243553766585m" data-normal="-0.8975876557832441m 0.08897505921448434m -0.43176363791236516m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Ear Tip</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Novo EarBuds</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/main.css" rel="stylesheet"/>
+    <!-- link to greensock main library and scroll plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  </head>
+  <body>
+    <model-viewer id="model" src="model/yabes_jonathan_earbud.gltf" ar ar-modes="webxr scene-viewer quick-look" ios-src="model/earbuds.usdz" camera-controls poster="images/poster.webp" shadow-intensity="1" environment-image="images/aircraft_workshop_01_1k.hdr" exposure="1.7" camera-orbit="52.34deg 88.29deg 874.8m" field-of-view="30deg">
+
+      <button class="Hotspot" slot="hotspot-1" data-position="4.509541602217702m 188.15995105251227m 9.50815713204895m" data-normal="0.07165658391326078m 0.2895796961481602m 0.9544678797951354m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">
+            <h2>Microphone</h2>
+            <p>Noise-canceling microphones in earbuds eliminate ambient sounds for crystal-clear calls, enhancing communication and music experiences while blocking distractions.</p>
+          </div>
+      </button>
+      
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.2726839123058369m 140.30711623232733m 21.0312925062301m" data-normal="-0.09801735813265836m 0.06891482258166999m 0.9927957215526422m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">
+            <h2>Touch Control</h2>
+            <p>Three pairs of ultra comfortablesklicone tips are inclued. The tips created an acoustic seal that blocks outside audio and secures the earbuds in place.</p>
+          </div>
+      </button>
+      
+    </button><button class="Hotspot" slot="hotspot-3" data-position="23.843773240794235m 171.08132535583204m -66.30477162260917m" data-normal="0.31295083699913184m -0.014044475301806896m -0.9496654812801401m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">
+            <h2>Noise Canceling</h2>
+            <p>360 Audio places sound all around you, while Dolby Head Tracking technology delivers an incredible three-dimensional listening wxperience.</p>
+          </div>
+      </button>
+      
+    </button><button class="Hotspot" slot="hotspot-4" data-position="1.360106536965026m 43.83192571313832m 13.663794805665134m" data-normal="0.09273207823037619m -0.3861764796999074m 0.9177518663525901m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">
+            <h2>Ultra Fast Charging</h2>
+            <p>Charge your earbuds in 30 minutes or less with our hyper charging technology.</p>
+          </div>
+      </button>
+
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-56.49949397312602m 174.80621480985337m -104.70243553766585m" data-normal="-0.8975876557832441m 0.08897505921448434m -0.43176363791236516m" data-visibility-attribute="visible">
+      <div class="HotspotAnnotation">
+        <h2>Ear tip</h2>
+        <p>Charge your earbuds in 30 minutes or less with our hyper charging technology.</p>
+      </div>
+  </button>
+
+  <button class="Hotspot" slot="hotspot-6" data-position="-33.02038743853128m 172.53082245722237m -103.02849087914694m" data-normal="-0.11997440317232524m -5.7747277841488216e-8m -0.9927769853211954m" data-visibility-attribute="visible">
+  <div class="HotspotAnnotation">
+    <h2>Ear tip</h2>
+    <p>Charge your earbuds in 30 minutes or less with our hyper charging technology.</p>
+  </div>
+</button>
+
+
+
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="images/ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
