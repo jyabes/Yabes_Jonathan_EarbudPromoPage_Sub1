@@ -12,8 +12,17 @@ model-viewer {
   width: 45px;
   height: 38px;
   display: none;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 90%;
+  width: 20px;
 }
+
+.Hotspot:hover {
+  opacity: 100%;
+  width: 100px;
+}
+
+
 
 .Hotspot:not([data-visible]) {
   opacity: 0;
